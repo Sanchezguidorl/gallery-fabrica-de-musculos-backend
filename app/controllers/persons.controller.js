@@ -65,5 +65,6 @@ return new Error("Todos los campos son obligatorios");
         return new Error(error);
     }
     };
+    
 
 module.exports={createPerson, getPersons, getPersonById, deletePersonById, updatePersonById};
