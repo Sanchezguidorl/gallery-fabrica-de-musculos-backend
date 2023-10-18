@@ -1,4 +1,7 @@
 const mongoose= require("mongoose");
+
+
+//Modelo para collection PersonTransformation
 const personTransformationSchema= mongoose.Schema({
 namePerson:{
     type: String, required: true
